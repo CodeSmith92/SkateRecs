@@ -27,7 +27,7 @@ When running from the command line, parameters should be passed as key-value pai
 
 | Key   | Type | Options | Required | Description|
 | ----- | ---- | --------| -------- | ---------- |
-| `shoe_size`  | float  | 6.0-12.0| Yes     | Inclusive  |
+| `shoe_size`  | float  | 6.0-12.0| Yes     | Size corresponds to US M. Inclusive  |
 | `foot_width` | float |         | Yes     |      units: cm      |
 | `foot_length`  | float  |         | No    |   If no input, default value is assigned in cm based on shoe_size         |
 
@@ -35,3 +35,8 @@ When running from the command line, parameters should be passed as key-value pai
 Example:
 
     python skates.py --shoe_size 10.5 --foot_width 10.16 
+    
+## TODO: 
+
+Update to include US W size calculation, and skate recommendations. 
+Include new 2021 fit profiles for Bauer and CCM in skate recommendations. 
