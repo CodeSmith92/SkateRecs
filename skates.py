@@ -13,9 +13,6 @@ parser.add_argument('--foot_width', type=float, help='Widest part of foot in cen
                     required=True)
 parser.add_argument('--foot_length', type=float, help='Optional input. Foot length in centimeters.')
 
-# Following arguments needed when running in PyCharm
-parser.add_argument('--mode', default='client')
-parser.add_argument('--port', default=50071)  # change port default as needed
 
 args = parser.parse_args()
 
