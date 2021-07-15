@@ -100,7 +100,7 @@ def main():
 
     print('Skate fit/model suggestions:')
     if vol == 'lower-volume':
-        data = [('CCM', 'JetSpeed', 'D', 'low'), ('Bauer', 'Vapor', 'D', 'low')]
+        data = [('CCM', 'JetSpeed', 'D', 'low-medium'), ('Bauer', 'Vapor', 'D', 'low')]
 
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Skate Volume'])
         print(df)
