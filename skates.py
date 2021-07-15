@@ -106,8 +106,9 @@ def main():
         print(df)
 
     elif vol == 'medium-volume':
-        data = [('CCM', 'Super Tacks', 'D', 'medium'), ('CCM', 'Tacks', 'D', 'medium'), ('Bauer', 'Supreme', 'D',
-                                                                                         'medium')]
+        data = [('CCM', 'Super Tacks', 'D', 'medium'), ('CCM', 'Tacks', 'D', 'medium'),
+                ('CCM', 'JetSpeed', 'EE', 'medium'), ('Bauer', 'Supreme', 'D',
+                                                      'medium')]
 
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Skate Volume'])
         print(df)
