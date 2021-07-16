@@ -116,6 +116,8 @@ def main():
 
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Skate Volume'])
         print(df)
+        print('NOTE: CCM recommends sizing down 2 sizes from shoe size for the RBZ skate line.')
+        print(f'RBZ skate size: {shoe_size -2.0}')
 
     # Output
     out_path = os.path.join(local_path, 'skate_options.csv')
