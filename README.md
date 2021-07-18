@@ -1,7 +1,7 @@
 # SkateRecs
 
 ## Intro
-For most Bauer and CCM (men's) hockey skates, a person's skate size corresponds to a size of 1.5 less than their shoe size (think dress shoe). This program recommends appropriate (Bauer and CCM) skate models/fit profiles based on foot width (and foot length/width ratio).
+For most (men's) hockey skates, a person's skate size corresponds to a size of 1.5 less than their shoe size (think dress shoe). This program recommends Bauer and CCM skate models/fit profiles based on foot width (and foot length/width ratio). 
 
 
 ## Setup
