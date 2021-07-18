@@ -36,7 +36,3 @@ Example:
 
     python skates.py --shoe_size 10.5 --foot_width 10.16 
     
-## TODO: 
-
-Update to include US W size calculation, and skate recommendations. 
-Include new 2021 fit profiles for Bauer and CCM in skate recommendations. 
