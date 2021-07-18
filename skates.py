@@ -80,15 +80,14 @@ def getSkateVolume():
 
     if width_ratio >= 3.1:
         volume = 'low'
-        boot_width = ['standard']
-    elif width_ratio >= 3.0:
-        volume = 'low-medium'
     elif width_ratio >= 2.9:
         volume = 'low-medium'
-    elif width_ratio > 2.5:
-        volume = 'medium-volume'
+    elif width_ratio >= 2.6:
+        volume = 'medium'
+    elif width_ratio >= 2.4:
+        volume = 'medium-high'
     else:
-        volume = 'higher-volume'
+        volume = 'higher'
 
     print(f'Suggested skate volume based on length-to-width ratio: {volume}')
     return volume
