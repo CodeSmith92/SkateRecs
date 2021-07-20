@@ -123,31 +123,31 @@ def main():
         data = [('Bauer', 'Vapor', 'D', 'tapered'),
                 ('CCM', 'Ribcor', 'D', 'tapered/flexible')]
 
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
     if vol == 'low-medium':
         data = [('CCM', 'JetSpeed', 'D', 'tapered'),
                 ('CCM', 'Ribcor', 'D', 'tapered/flexible'), ('Bauer', 'Vapor', 'EE', 'tapered')]
 
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
     elif vol == 'medium':
         data = [('CCM', 'Tacks/Super Tacks', 'D', 'standard/medium'),
                 ('CCM', 'JetSpeed', 'EE', 'tapered'),
                 ('Bauer', 'Supreme', 'D', 'standard/medium')]
 
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
     elif vol == 'medium-high':
         data = [('CCM', 'Tacks/Super Tacks', 'EE', 'standard/medium'),
                 ('Bauer', 'Supreme', 'EE', 'standard/medium'),
                 ('Bauer', 'Nexus', 'D', 'wide')]
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
     else:
         data = [('CCM', 'RBZ', 'D', 'wide'), ('CCM', 'RBZ', 'EE', 'wide'), ('Bauer', 'Nexus', 'D', 'wide'),
                 ('Bauer', 'Nexus', 'EE', 'wide')]
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
         print('NOTE: CCM recommends sizing down 2 sizes from shoe size for the RBZ skate line.')
         print(f'RBZ skate size: {shoe_size - 2.0}')
