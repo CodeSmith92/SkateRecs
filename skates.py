@@ -67,6 +67,11 @@ def getWidthRatio():
 
     if args.foot_length:
         foot_length = args.foot_length
+        if foot_length <= 0:
+            raise argparse.ArgumentTypeError(f'{foot_length} is an invalid foot length for this program')
+        if foot_length > 30.5:
+            raise argparse.ArgumentTypeError(f'{foot_length} is an invalid foot length for this program')
+
         print(f'foot length: {foot_length} cm')
 
         width_ratio = foot_length / foot_width
@@ -118,31 +123,31 @@ def main():
         data = [('Bauer', 'Vapor', 'D', 'tapered'),
                 ('CCM', 'Ribcor', 'D', 'tapered/flexible')]
 
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
         print(df)
     if vol == 'low-medium':
         data = [('CCM', 'JetSpeed', 'D', 'tapered'),
                 ('CCM', 'Ribcor', 'D', 'tapered/flexible'), ('Bauer', 'Vapor', 'EE', 'tapered')]
 
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
         print(df)
     elif vol == 'medium':
         data = [('CCM', 'Tacks/Super Tacks', 'D', 'standard/medium'),
                 ('CCM', 'JetSpeed', 'EE', 'tapered'),
                 ('Bauer', 'Supreme', 'D', 'standard/medium')]
 
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
         print(df)
     elif vol == 'medium-high':
         data = [('CCM', 'Tacks/Super Tacks', 'EE', 'standard/medium'),
                 ('Bauer', 'Supreme', 'EE', 'standard/medium'),
                 ('Bauer', 'Nexus', 'D', 'wide')]
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
         print(df)
     else:
         data = [('CCM', 'RBZ', 'D', 'wide'), ('CCM', 'RBZ', 'EE', 'wide'), ('Bauer', 'Nexus', 'D', 'wide'),
                 ('Bauer', 'Nexus', 'EE', 'wide')]
-        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
+        df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'], index=False)
         print(df)
         print('NOTE: CCM recommends sizing down 2 sizes from shoe size for the RBZ skate line.')
         print(f'RBZ skate size: {shoe_size - 2.0}')
