@@ -27,7 +27,7 @@ When running from the command line, parameters should be passed as key-value pai
 
 | Key   | Type | Options | Required | Description|
 | ----- | ---- | --------| -------- | ---------- |
-| `shoe_size`  | float  | 6.0-12.0| Yes     | Size corresponds to US M. Values are inclusive. Increments of 0.5.  |
+| `shoe_size`  | float  | 6-13| Yes     | Size corresponds to US M. Values are inclusive. Increments of 0.5.  |
 | `foot_width` | float |         | Yes     |      units: cm      |
 | `foot_length`  | float  |         | No    |   If no input, default value is assigned in cm based on shoe_size.         |
 
