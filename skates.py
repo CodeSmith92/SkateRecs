@@ -56,7 +56,6 @@ def sizeToLength():
     elif shoe_size == 6.5:
         foot_length = 24.7
     else:
-        shoe_size == 6
         foot_length = 24.3
 
     print(f'Default foot length: {foot_length} cm')
@@ -102,9 +101,10 @@ def getSkateVolume():
 
 def main():
     width = args.foot_width
-    if width <= 0 | width >= 20:
+    if width <= 0:
         raise argparse.ArgumentTypeError(f'{width} is an invalid (human) foot width')
-    return width
+    if width >= 20:
+        raise argparse.ArgumentTypeError(f'{width} is an invalid (human) foot width')
 
     shoe_size = args.shoe_size
     skate_size = shoe_size - 1.5
