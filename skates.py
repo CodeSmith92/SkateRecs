@@ -68,9 +68,9 @@ def getWidthRatio():
     if args.foot_length:
         foot_length = args.foot_length
         if foot_length <= 0:
-            raise argparse.ArgumentTypeError(f'{foot_length} is an invalid foot length for this program')
+            raise argparse.ArgumentTypeError('Invalid foot length for this program')
         if foot_length > 30.5:
-            raise argparse.ArgumentTypeError(f'{foot_length} is an invalid foot length for this program')
+            raise argparse.ArgumentTypeError('Invalid foot length for this program')
 
         print(f'foot length: {foot_length} cm')
 
@@ -107,9 +107,9 @@ def getSkateVolume():
 def main():
     width = args.foot_width
     if width <= 0:
-        raise argparse.ArgumentTypeError(f'{width} is an invalid (human) foot width')
+        raise argparse.ArgumentTypeError('Invalid (human) foot width')
     if width >= 20:
-        raise argparse.ArgumentTypeError(f'{width} is an invalid (human) foot width')
+        raise argparse.ArgumentTypeError('Invalid (human) foot width')
 
     shoe_size = args.shoe_size
     skate_size = shoe_size - 1.5
