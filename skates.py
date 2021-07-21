@@ -69,10 +69,10 @@ def getWidthRatio():
         foot_length = args.foot_length
         if foot_length <= 0:
             raise argparse.ArgumentTypeError('Invalid foot length for this program')
-        if foot_length > 30.5:
+        elif foot_length > 30.5:
             raise argparse.ArgumentTypeError('Invalid foot length for this program')
-
-        print(f'foot length: {foot_length} cm')
+        else:
+            print(f'foot length: {foot_length} cm')
 
         width_ratio = foot_length / foot_width
 
@@ -125,7 +125,7 @@ def main():
 
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
-    if vol == 'low-medium':
+    elif vol == 'low-medium':
         data = [('CCM', 'JetSpeed', 'D', 'tapered'),
                 ('CCM', 'Ribcor', 'D', 'tapered/flexible'), ('Bauer', 'Vapor', 'EE', 'tapered')]
 
