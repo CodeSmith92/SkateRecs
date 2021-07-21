@@ -50,7 +50,7 @@ Example:
 1. [5 things all hockey players should know before buying skates](https://www.youtube.com/watch?v=ke_mHR_59cY&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=4)
 2. [CCM Tacks, RBZ, Ribcor (2014)](https://www.youtube.com/watch?v=7fvRSc44uGM&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=1)
 3. [CCM Tacks, JetSpeed, Ribcor (2016)](https://www.youtube.com/watch?v=yXK61_E6Klg&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=2)
-4. [CCM Tacks, JetSpeed, Ribcor (2018)](https://www.youtube.com/watch?v=C5zIHbgSqzk&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=3
+4. [CCM Tacks, JetSpeed, Ribcor (2018)](https://www.youtube.com/watch?v=C5zIHbgSqzk&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=3)
 5. [CCM Tacks, JetSpeed, Ribcor (2019)](https://www.youtube.com/watch?v=tAjN296MQyU)
 6. [Bauer Nexus, Supreme, Vapor (2013)](https://www.youtube.com/watch?v=-LqCSvEqTSo)
 7. [Bauer Nexus, Supreme, Vapor (2016)](https://www.youtube.com/watch?v=1eR0-kJa8eY&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=6)
