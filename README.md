@@ -1,7 +1,7 @@
 # SkateRecs
 
 ## Intro
-For most (men's) hockey skates, a person's skate size corresponds to a size of 1.5 less than their shoe size (think dress shoe). This program returns skate size, and recommends Bauer and CCM skate models/fit profiles based on foot width (and foot length/width ratio). 
+For most (men's) hockey skates, a person's skate size corresponds to a size of 1.5 less than their shoe size (think dress shoe). This program returns skate size, and recommends Bauer and CCM skate models/fit profiles based on the user's foot length-to-width ratio. The foot_length argument is optional; if not passed, the program will estimate foot_length based on user input for shoe_size. 
 
 
 ## Setup
@@ -36,3 +36,28 @@ Example:
 
     python skates.py --shoe_size 10.5 --foot_width 10.16 
     
+## Planned updates
+- [ ] Incorporate instep height
+- [ ] Implement "experience" argument where choices=['beginner', 'intermediate', 'advanced'] and specific skate model suggestions will be made based on user input. 
+
+## Webpage sources
+1. [Foot length estimates and width ratio cutoffs](https://www.inlinewarehouse.com/lc/icehockeyskatesizing.Html)
+2. [Choosing the right hockey skates](https://puckstop.com/blog/how-to-choose-the-right-ice-hockey-skates-find-the-ultimate-fit)
+3. [CCM vs Bauer](https://goingbardown.com/ccm-vs-bauer-hockey-skates/)
+4. [Skate lineups and models by release year](https://beerleaguetips.com/article/hockey-skate-lineup-comparison/)
+
+## Video sources
+1. [5 things all hockey players should know before buying skates](https://www.youtube.com/watch?v=ke_mHR_59cY&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=4)
+2. [CCM Tacks, RBZ, Ribcor (2014)](https://www.youtube.com/watch?v=7fvRSc44uGM&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=1)
+3. [CCM Tacks, JetSpeed, Ribcor (2016)](https://www.youtube.com/watch?v=yXK61_E6Klg&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=2)
+4. [CCM Tacks, JetSpeed, Ribcor (2018)](https://www.youtube.com/watch?v=C5zIHbgSqzk&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=3
+5. [CCM Tacks, JetSpeed, Ribcor (2019)](https://www.youtube.com/watch?v=tAjN296MQyU)
+6. [Bauer Nexus, Supreme, Vapor (2013)](https://www.youtube.com/watch?v=-LqCSvEqTSo)
+7. [Bauer Nexus, Supreme, Vapor (2016)](https://www.youtube.com/watch?v=1eR0-kJa8eY&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=6)
+8. [Bauer Nexus, Supreme, Vapor (2017)](https://www.youtube.com/watch?v=ct_z_7Wpxeo)
+9. [Bauer Nexus, Supreme, Vapor (2018)](https://www.youtube.com/watch?v=XLxiir_Pwm4)
+10. [Bauer Nexus, Supreme, Vapor (2019)](https://www.youtube.com/watch?v=aIcazwpuUD0)
+11. [Bauer 2020 performance fit system](https://www.youtube.com/watch?v=kvSyoc5ANBM)
+13. [CCM 2021 skate fit profiles](https://www.youtube.com/watch?v=xnutF6IiQiQ&t=546s)
+14. [CCM 2021 skate fit profiles II](https://www.youtube.com/watch?v=CXuQRJaRbaw&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=5)
+
