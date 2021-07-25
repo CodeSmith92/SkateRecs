@@ -19,7 +19,7 @@ For most (men's) hockey skates, a person's skate size corresponds to a size of 1
 
 ## CLI
 
-When running from the command line, parameters should be passed as key-value pairs. For example:
+When running from the command line, terminal, or shell, parameters must be passed as key-value pairs. For example:
 
     python skates.py --shoe_size <shoe size> --foot_width <width-cm> --foot_length <length-cm> 
 
