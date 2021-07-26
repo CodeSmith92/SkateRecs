@@ -117,11 +117,10 @@ def main():
 
     vol = getSkateVolume()
 
-    print('Skate fit/model suggestions:')
+    print('Skate model/fit suggestions:')
 
     if vol == 'low':
-        data = [('Bauer', 'Vapor', 'D', 'tapered'),
-                ('CCM', 'Ribcor', 'D', 'tapered/flexible')]
+        data = [('Bauer', 'Vapor', 'D', 'tapered'), ('CCM', 'Ribcor', 'D', 'tapered/flexible')]
 
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
@@ -132,22 +131,24 @@ def main():
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
     elif vol == 'medium':
-        data = [('CCM', 'Tacks/Super Tacks', 'D', 'standard/medium'),
-                ('CCM', 'JetSpeed', 'EE', 'tapered'),
-                ('Bauer', 'Supreme', 'D', 'standard/medium')]
+        data = [('CCM', 'JetSpeed', 'EE', 'tapered'), ('CCM', 'SuperTacks', 'D', 'standard/anatomical'),
+                ('Bauer', 'Supreme', 'D', 'standard/anatomical'), ('CCM', 'Ribcor', 'D', 'tapered/flexible')]
 
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
     elif vol == 'medium-high':
-        data = [('CCM', 'Tacks/Super Tacks', 'EE', 'standard/medium'),
-                ('Bauer', 'Supreme', 'EE', 'standard/medium'),
-                ('Bauer', 'Nexus', 'D', 'wide')]
+        data = [('CCM', 'Tacks', 'D', 'anatomical/wide'), ('CCM', 'RBZ', 'D', 'classic/wide'),
+                ('CCM', 'SuperTacks', 'EE', 'anatomical'), ('CCM', 'Ribcor', 'EE', 'tapered/flexible'),
+                ('Bauer', 'Supreme', 'EE', 'anatomical'), ('Bauer', 'Nexus', 'D', 'classic/wide')]
+
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
     else:
-        data = [('CCM', 'RBZ', 'D', 'wide'), ('CCM', 'RBZ', 'EE', 'wide'), ('Bauer', 'Nexus', 'D', 'wide'),
+        data = [('CCM', 'RBZ', 'EE', 'classic/wide'), ('CCM', 'Ribcor', 'EE', 'tapered/flexible'),
                 ('Bauer', 'Nexus', 'EE', 'wide')]
+
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
+
         print(df)
         print('NOTE: CCM recommends sizing down 2 sizes from shoe size for the RBZ skate line.')
         print(f'RBZ skate size: {shoe_size - 2.0}')
