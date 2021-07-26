@@ -144,8 +144,8 @@ def main():
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
         print(df)
     else:
-        data = [('CCM', 'RBZ', 'EE', 'classic/wide'), ('CCM', 'Ribcor', 'EE', 'tapered/flexible'),
-                ('Bauer', 'Nexus', 'EE', 'wide')]
+        data = [('CCM', 'Tacks', 'EE', 'anatomical/wide'), ('CCM', 'RBZ', 'EE', 'classic/wide'),
+                ('CCM', 'Ribcor', 'EE', 'tapered/flexible'), ('Bauer', 'Nexus', 'EE', 'wide')]
 
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
 
