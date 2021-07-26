@@ -37,14 +37,18 @@ Example:
     python skates.py --shoe_size 10.5 --foot_width 10.16 
     
 ## Planned updates
-- [ ] Incorporate instep height
+- [ ] Incorporate instep, forefoot, ankle, and heel profiles
 - [ ] Implement "experience" argument where choices=['beginner', 'intermediate', 'advanced'] and specific skate model suggestions will be made based on user input. 
 
 ## Webpage sources
 1. [Foot length estimates and width ratio cutoffs](https://www.inlinewarehouse.com/lc/icehockeyskatesizing.Html)
 2. [Choosing the right hockey skates](https://puckstop.com/blog/how-to-choose-the-right-ice-hockey-skates-find-the-ultimate-fit)
 3. [CCM vs Bauer](https://goingbardown.com/ccm-vs-bauer-hockey-skates/)
-4. [Skate lineups and models by release year](https://beerleaguetips.com/article/hockey-skate-lineup-comparison/)
+4. [Vapor vs Supreme vs Nexus I](https://www.purehockey.com/c/bauer-supreme-vs-vapor-vs-nexus-skates)
+5. [Vapor vs Supreme vs Nexus II](https://discounthockey.com/blogs/news/81929475-bauer-vapor-supreme-nexus-which-one-is-right-for-me)
+6. [Ribcor vs Jetspeed vs Tacks I](https://www.purehockey.com/c/ccm-jetspeed-vs-ribcor-vs-tacks-hockey-skates)
+7. [Ribcor vs Jetspeed vs Tacks II](https://discounthockey.com/blogs/news/93726659-ccm-jetspeed-tacks-ribcor-which-one-is-right-for-me)
+8. [Skate lineups and models by release year](https://beerleaguetips.com/article/hockey-skate-lineup-comparison/)
 
 ## Video sources
 1. [5 things all hockey players should know before buying skates](https://www.youtube.com/watch?v=ke_mHR_59cY&list=PLFVG1Wz0eNjhJVhA9_DJ3fJaBRDmMIu8q&index=4)
