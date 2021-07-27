@@ -113,6 +113,8 @@ def main():
 
     shoe_size = args.shoe_size
     skate_size = shoe_size - 1.5
+
+    print(f'Skate size range: {shoe_size-2}-{shoe_size-1}')
     print(f'Suggested Bauer and CCM skate size: {skate_size}')
 
     vol = getSkateVolume()
@@ -145,7 +147,7 @@ def main():
         print(df)
     else:
         data = [('CCM', 'Tacks', 'EE', 'anatomical/wide'), ('CCM', 'RBZ', 'EE', 'classic/wide'),
-                ('CCM', 'Ribcor', 'EE', 'tapered/flexible'), ('Bauer', 'Nexus', 'EE', 'wide')]
+                ('CCM', 'Ribcor', 'EE', 'tapered/flexible'), ('Bauer', 'Nexus', 'EE', 'classic/wide')]
 
         df = pd.DataFrame(data, columns=['Manufacturer', 'Skate Model', 'Width', 'Fit Profile'])
 
