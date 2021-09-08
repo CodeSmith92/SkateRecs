@@ -1,7 +1,7 @@
 # SkateRecs
 
 ## Intro
-For most (men's) hockey skates, a person's skate size corresponds to a size of 1.5 less than their shoe size (think dress shoe). This program returns skate size, and recommends Bauer and CCM skate models/fit profiles based on the user's foot length-to-width ratio. The foot_length argument is optional; if not passed, the program will estimate foot_length based on user input for shoe_size. 
+For most (men's) hockey skates, a person's skate size corresponds to a size of 1.5 less than their shoe size (think dress shoe). This program returns the user's likely skate size, and will recommend Bauer and CCM skate models/fit profiles based on the user's foot length-to-width ratio. The foot_length argument is optional; if not passed, the program will estimate foot_length based on user input for shoe_size. 
 
 
 ## Setup
